@@ -1,0 +1,38 @@
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+img:hover {
+    animation-name: imgAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes imgAni {
+    0% {transform: rotate(0deg);
+    filter:hue-rotate(30deg)}
+
+    25% {
+
+    }
+    
+    50% {
+        background-color: brown;}
+    
+    75% {
+
+    }
+
+    100% {transform: rotate(360deg);
+        background-color: chartreuse;
+        filter: hue-rotate(360deg);}
+}
+
+div {
+    text-align: center;
+    margin-top: 30px;
+}
